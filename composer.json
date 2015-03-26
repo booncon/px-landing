@@ -44,7 +44,8 @@
     "johnpbloch/wordpress": "4.1.1",
     "composer/installers": "v1.0.12",
     "vlucas/phpdotenv": "1.0.9",
-    "wpackagist-plugin/contact-form-7": "4.1"
+    "wpackagist-plugin/contact-form-7": "4.1",
+    "wpackagist-plugin/wp-mail-smtp": "0.9.5"
   },
   "extra": {
     "installer-paths": {

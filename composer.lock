@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "6710f3ddb4ec36d48a2dce39c385fd3b",
+    "hash": "ad4c7456afb3550235cfc6f7dd7e007f",
     "packages": [
         {
             "name": "composer/installers",
@@ -241,6 +241,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/contact-form-7/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-mail-smtp",
+            "version": "0.9.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-mail-smtp/",
+                "reference": "tags/0.9.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-mail-smtp.0.9.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         }
     ],
     "packages-dev": [],
